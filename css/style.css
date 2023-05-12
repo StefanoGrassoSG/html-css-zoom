@@ -1,0 +1,118 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+* {
+    color: white;
+}
+
+.view {
+    height: 70px;
+    background-color: black;
+    text-align: right;
+}
+
+.my-row {
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+/*MAIN*/
+.view {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.view button {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+}
+
+main .my-row {
+    margin-bottom: 10px;
+}
+
+.photo {
+    width: calc((100% / 7) - 10px);
+    height: 130px;
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    position: relative;
+
+}
+
+.photo span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(117, 115, 116, 0.5);
+    padding: 3px;
+}
+
+/*FOOTER*/
+footer {
+    height: 100px;
+    background-color: #222222;
+}
+
+footer .foot-left {
+    width: 25%;
+
+}
+
+.container-button {
+    width: 95px;
+    position: relative;
+}
+
+.microphone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #222222;
+    border: none;
+    padding: 15px 50px 15px 15px;
+}
+
+.microphone:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.microphone span {
+    padding-top: 10px;
+}
+
+.fa-microphone {
+    font-size: 40px;
+}
+
+.fa-angle-up {
+    
+}
+
+footer .foot-center {
+    width: 50%;
+}
+
+footer .foot-right {
+    width: 25%;
+}
