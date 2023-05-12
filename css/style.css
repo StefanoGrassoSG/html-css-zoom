@@ -48,7 +48,7 @@ main .my-row {
 }
 
 .photo {
-    width: calc((100% / 7) - 10px);
+    width: calc((100% / 7) - 5px);
     height: 130px;
     background-image: url('https://picsum.photos/200/300');
     background-repeat: no-repeat;
@@ -69,50 +69,72 @@ main .my-row {
 
 /*FOOTER*/
 footer {
-    height: 100px;
     background-color: #222222;
+    display: flex;
+    height: 100px;
 }
 
 footer .foot-left {
     width: 25%;
-
-}
-
-.container-button {
-    width: 95px;
-    position: relative;
-}
-
-.microphone {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
     background-color: #222222;
     border: none;
-    padding: 15px 50px 15px 15px;
+    padding: 15px 15px 15px 15px;
 }
 
-.microphone:hover {
+.buttons:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
 
-.microphone span {
+.buttons div {
     padding-top: 10px;
 }
 
-.fa-microphone {
-    font-size: 40px;
+footer button i {
+    font-size: 30px;
+}
+
+.small-button {
+    height: 14px;
+    background-color: #222222;
+    border: none;
 }
 
 .fa-angle-up {
-    
+    font-size: 16px;
+}
+
+.small-button:hover {
+     background-color: rgba(255, 255, 255, 0.3);
+     border-radius: 2px;
 }
 
 footer .foot-center {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 footer .foot-right {
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.foot-right button {
+    color: red;
+    padding: 43px;
+    background-color: #4A4A4A;
+    border: none;
+}
+
+.foot-right button:hover {
+     background-color: rgba(255, 255, 255, 0.3);
+     border-radius: 2px;
 }
