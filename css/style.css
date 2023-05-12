@@ -109,6 +109,10 @@ footer button i {
     font-size: 16px;
 }
 
+.fa-share-from-square {
+    color: green;
+}
+
 .small-button:hover {
      background-color: rgba(255, 255, 255, 0.3);
      border-radius: 2px;
@@ -118,6 +122,7 @@ footer .foot-center {
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 footer .foot-right {
